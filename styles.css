@@ -1,0 +1,111 @@
+body    {
+        background-color: darkgrey;
+        width: 100%;
+
+}
+
+.header    {
+        width: 800px;
+        margin: 0 auto;
+        border: 0.5px solid black;
+        height: 100px;
+        display:flex;
+        flex-direction: row;
+}
+#logo   {
+        width:30%;
+        text-shadow: black;
+        text-align: center;
+        padding: 10px;
+        font-size: 50px;
+        font-style: italic;
+        background-color:rgb(177, 5, 134);
+
+}
+#nav    {
+        color: black;
+        display: flex;
+        text-align:center;
+}
+li      {
+        margin:20px;
+        font-size: 120%;
+
+}
+a:hover {
+        color:indigo;
+        background-color:black;
+        height:100px;
+}
+#banner {
+        width: 800px;
+        margin: 0 auto;
+        height:250px;
+        display: flex;
+        background-image: url('https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+        background-attachment: fixed;
+        background-position:center bottom ;
+        background-repeat: no-repeat;
+
+
+}
+img     {
+        width: 180px;
+        height: 180px;
+        -webkit-clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 99%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+        clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 99%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+        border:2px solid black;
+        margin:5px;
+
+}
+.images {
+    float:left;
+    flex-wrap:wrap;
+}
+#1    {
+      background-size: cover;
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: -2;
+      opacity: 0.4;
+}
+.main   {
+        display:flex;
+        flex-direction: row;
+        width: 800px;
+        margin: 0 auto;
+}
+#menu   {
+        width:400px;
+        display:flex;
+        flex-wrap:wrap;
+        margin-top:10px;
+}
+#description    {
+        width:400px;
+        float:right;
+        margin-top:10px;
+}
+p   {
+    font:verdana;
+    display:justify;
+    line-height:1.5;
+    color:rgb:(41,43,41);
+}
+h1  {
+    color:rgb(177, 5, 134);
+    font-size:20px;
+    width:300px;
+    /* background-color:rgb(29,163,16); */
+    
+}
+
+#footer   {
+      width:800px;
+      margin: 0 auto;
+      height:30px;
+      background-color: rgb(29,163,16);
+      text-align:center;
+      padding:10px;
+}
